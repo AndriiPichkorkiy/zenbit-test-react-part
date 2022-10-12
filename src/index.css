@@ -1,0 +1,34 @@
+@font-face { font-family: ApercuArabicPro-Medium; 
+			 src: url('./ApercuArabicPro-Medium.ttf'); } 
+
+:root {
+  --btn-bg-color: #FAD34F;
+  --btn-text-color: #FFF;
+  --text-color: #2D2D2D;
+
+  --form-title-color: #3E3E3E;
+  --input-border-color: #DCDCDC;
+
+  --footer-stroke-color: #D8D8D8;
+  --footer-bg-color: #FAFAFA;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+   font-size: calc(100vw / 80);   
+}
+
+body {
+    margin: 0;
+    font-family: 'ApercuArabicPro-Medium';
+    color: var(--text-color);
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+
+    min-width: 480px;
+}
